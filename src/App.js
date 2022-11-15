@@ -12,10 +12,35 @@ import {
 function App() {
   return (
     <div className="container-fluid">
+      
+        <nav className="navbar navbar-dark navbar-expand-md bg-dark justify-content-center">
+          
+        
+          {/* <Link to='/' className="navbar-brand">
+          <img src={myimg} alt="Avatar Logo"  className="rounded-pill myinglogo" /> 
+           </Link> */}
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <Link className="nav-link" to="/">Hello</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/skills">About</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/journey">Experience</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/contact">Contact</Link>
+            </li>
+          </ul>
+      
+</nav>
+        
+      
       <div className='row'>
         <div className='col-md-2'>
         
-        <nav className="navbar navbar-dark">
+        <nav className="navbar  navbar-dark bg-dark">
           
           <div className="container-fluid leftdiv">
           <Link to='/' className="navbar-brand">
@@ -23,11 +48,15 @@ function App() {
            </Link>
           <ul className="navbar-nav">
             <li className="nav-item">
-              <Link className="nav-link" to="/">Home</Link>
+             <a href="mailto:coolntop.ray@gmail.com">Mail Us</a>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/about">About</Link>
+             <a href="https://www.linkedin.com/in/manoj-kumar-appcoder">Linkedin</a>
             </li>
+            <li className="nav-item">
+             <a href="https://github.com/manojgtech">Github</a>
+            </li>
+            
           </ul>
         </div>
 </nav>
@@ -38,7 +67,7 @@ function App() {
         
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
+      <Route path="/skills" element={<About />} />
         
     </Routes>
   

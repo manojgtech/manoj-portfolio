@@ -28,3 +28,10 @@ body{
   align-items: center;
   margin-top: 50px;
 }
+a{
+text-decoration:none;
+color:#fff;
+}
+a:hover{
+color:red;
+}
