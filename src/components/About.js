@@ -12,11 +12,11 @@ const About = () => {
             </div>
             <div className='col-md-3'>
                 <h5>Fronend</h5>
-                <p>Javascript,  Python, PHP,  Node.js, MongoDB, MySql</p>
+                <p>HTML, CSS,Bootstrap,Javascript,React JS</p>
             </div>
             <div className='col-md-3'>
                 <h5>Consulting & SEO Audit</h5>
-                <p>Javascript,  Python, PHP,  Node.js, MongoDB, MySql</p>
+                <p>SEO,SMO,AUDITIG</p>
             </div>
           </div>
         </div>
