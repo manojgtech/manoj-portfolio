@@ -1,0 +1,37 @@
+body{
+  margin: 50px 0;
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+  
+}
+.container{
+  box-shadow: 0 4px 8px 0 rgba(240, 239, 239, 0.889), 0 6px 20px 0 rgba(26, 26, 26, 0.19);
+  padding: 40px;
+}
+.leftcol{
+  border-right: #fff solid 1px;
+}
+.myinglogo{
+  width: 100px;
+}
+.leftdiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section-home{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+a{
+text-decoration:none;
+color:#fff;
+}
+a:hover{
+color:red;
+}
