@@ -3,16 +3,16 @@ import React from 'react';
 
 const Resume = () => {
 return(
-<section id="resume" class="resume">
-  <div class="container aos-init aos-animate" data-aos="fade-up">
-    <div class="section-title">
+<section id="resume" className="resume">
+  <div className="container aos-init aos-animate" data-aos="fade-up">
+    <div className="section-title">
       <h2>Resume</h2>
       <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
     </div>
-    <div class="row">
-      <div class="col-lg-6">
-        <h3 class="resume-title">Sumary</h3>
-        <div class="resume-item pb-0">
+    <div className="row">
+      <div className="col-lg-6">
+        <h3 className="resume-title">Sumary</h3>
+        <div className="resume-item pb-0">
           <h4>Alice Barkley</h4>
           <p>
             <em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em>
@@ -25,8 +25,8 @@ return(
           </ul>
           <p></p>
         </div>
-        <h3 class="resume-title">Education</h3>
-        <div class="resume-item">
+        <h3 className="resume-title">Education</h3>
+        <div className="resume-item">
           <h4>Master of Fine Arts &amp; Graphic Design</h4>
           <h5>2015 - 2016</h5>
           <p>
@@ -34,7 +34,7 @@ return(
           </p>
           <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
         </div>
-        <div class="resume-item">
+        <div className="resume-item">
           <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
           <h5>2010 - 2014</h5>
           <p>
@@ -43,9 +43,9 @@ return(
           <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
         </div>
       </div>
-      <div class="col-lg-6">
-        <h3 class="resume-title">Professional Experience</h3>
-        <div class="resume-item">
+      <div className="col-lg-6">
+        <h3 className="resume-title">Professional Experience</h3>
+        <div className="resume-item">
           <h4>Senior graphic design specialist</h4>
           <h5>2019 - Present</h5>
           <p>
@@ -60,7 +60,7 @@ return(
           </ul>
           <p></p>
         </div>
-        <div class="resume-item">
+        <div className="resume-item">
           <h4>Graphic design specialist</h4>
           <h5>2017 - 2018</h5>
           <p>
