@@ -1,4 +1,4 @@
-import myimg from './img/me.jpg';
+
 import './App.css';
 import Home from './components/Home';
 import About from './components/About';
@@ -13,66 +13,48 @@ function App() {
   return (
     <div className="container-fluid">
       
-        <nav className="navbar navbar-dark navbar-expand-md bg-dark justify-content-center">
-          
+      <header id="header" class="fixed-top">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+          <h1 class="logo me-auto me-lg-0">
+            <a href="index.html">Manoj Kumar</a></h1>
+            <nav id="navbar" class="navbar order-last order-lg-0">
+              <ul>
+                <li><Link class="active" to="/">Hello</Link></li>
+                <li><Link  to="/about">About</Link></li>
+                {/* <li><a href="resume.html">Resume</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li> */}
+                </ul> 
+                <i class="bi bi-list mobile-nav-toggle"></i>
+                </nav>
+                <div class="header-social-links"> 
+                <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                 <a href="#" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="#" class="instagram"><i class="fa-brands fa-github"></i></a> 
+                  <a href="#" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                  </div>
+                  </div>
+                  </header>
         
-          {/* <Link to='/' className="navbar-brand">
-          <img src={myimg} alt="Avatar Logo"  className="rounded-pill myinglogo" /> 
-           </Link> */}
-          <ul className="navbar-nav">
-            <li className="nav-item">
-              <Link className="nav-link" to="/">Hello</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/skills">About</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/journey">Experience</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/contact">Contact</Link>
-            </li>
-          </ul>
       
-</nav>
-        
-      
-      <div className='row'>
-        <div className='col-md-2'>
-        
-        <nav className="navbar  navbar-dark bg-dark">
-          
-          <div className="container-fluid leftdiv">
-          <Link to='/' className="navbar-brand">
-          <img src={myimg} alt="Avatar Logo"  className="rounded-pill myinglogo" /> 
-           </Link>
-          <ul className="navbar-nav">
-            <li className="nav-item">
-             <a href="mailto:coolntop.ray@gmail.com">Mail Us</a>
-            </li>
-            <li className="nav-item">
-             <a href="https://www.linkedin.com/in/manoj-kumar-appcoder">Linkedin</a>
-            </li>
-            <li className="nav-item">
-             <a href="https://github.com/manojgtech">Github</a>
-            </li>
-            
-          </ul>
-        </div>
-</nav>
-
-
-        </div>
-        <div className='col-md-8'>
-        
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/skills" element={<About />} />
+     <main className="maidiv">
+     <Routes>
+      <Route exact path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
         
     </Routes>
-  
-        </div>
-      </div>
+     </main>
+    
+    <footer id="footer">
+      <div class="container">
+        <div class="copyright"> © Copyright <strong><span>Kelly</span>
+        </strong>. All Rights Reserved</div>
+      </div></footer>
+
+
+       
+       
     </div>
   );
 }
