@@ -2,6 +2,7 @@
 import './App.css';
 import Home from './components/Home';
 import About from './components/About';
+import Resume from './components/Resume';
 import {
   BrowserRouter,
   Routes,
@@ -21,8 +22,8 @@ function App() {
               <ul>
                 <li><Link class="active" to="/">Hello</Link></li>
                 <li><Link  to="/about">About</Link></li>
-                {/* <li><a href="resume.html">Resume</a></li>
-                <li><a href="services.html">Services</a></li>
+                 <li><Link  to="/resume">Resume</Link></li>
+                {/*<li><a href="services.html">Services</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="contact.html">Contact</a></li> */}
                 </ul> 
@@ -42,6 +43,7 @@ function App() {
      <Routes>
       <Route exact path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
+      <Route path="/resume" element={<Resume />} />
         
     </Routes>
      </main>
