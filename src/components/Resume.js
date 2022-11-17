@@ -13,15 +13,15 @@ return(
       <div className="col-lg-6">
         <h3 className="resume-title">Sumary</h3>
         <div className="resume-item pb-0">
-          <h4>Alice Barkley</h4>
+          <h4>Manoj Kumar Gupta</h4>
           <p>
-            <em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em>
+            <em>Innovative and deadline-driven Fullstack Developer with 5+ years of experience developing e-commerce and .</em>
           </p>
           <p></p>
           <ul>
-            <li>Portland par 127,Orlando, FL</li>
-            <li>(123) 456-7891</li>
-            <li>alice.barkley@example.com</li>
+            <li>Vandna enclave,khora colony Noida</li>
+            <li>+91 8447311900</li>
+            <li>mkmkgupta42@gmail.com</li>
           </ul>
           <p></p>
         </div>
