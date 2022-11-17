@@ -96,6 +96,7 @@ return(
             <li>Recommended and consulted with clients on the most appropriate graphic design</li>
             <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
           </ul> */}
+          
           <p></p>
         </div>
         <div className="resume-item">
