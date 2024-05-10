@@ -21,7 +21,7 @@ function App() {
             <a href="/">Er. Manoj Kumar Gupta</a></h1>
             <nav id="navbar" class="navbar order-last order-lg-0">
               <ul>
-                <li><Link class="active" to="/">Hello</Link></li>
+                <li><Link class="active" to="">Hello</Link></li>
                 <li><Link  to="/about">About</Link></li>
                  <li><a href="/resume">Resume</a></li>
                  <li><a href="/projects">Projects</a></li>
