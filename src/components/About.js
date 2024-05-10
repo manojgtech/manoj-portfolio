@@ -1,19 +1,33 @@
 import React from 'react';
 import myimg from '../img/me.jpg';
-
+import '../App.css';
 const About = () => {
 return(
 	<section id="about" class="about">
 		<div class="container aos-init aos-animate" data-aos="fade-up">
 			<div class="section-title">
 				<h2>About</h2>
-				<p>I am a highly competent IT professional with a proven track record in designing websites, networking and managing databases. I have strong technical skills as well as excellent interpersonal skills, enabling me to interact with a wide range of clients. I am eager to be challenged in order to grow and further improve my IT skills. My greatest passion is in life is using my technical know-how to benefit other people and organisations.</p>
+				<div>
+				<p>Experienced Web Developer | PHP | MySQL | React | Laravel | Node JS |CodeIgniter</p>
+<p>
+Hello there! I'm Manoj Kumar, a results-driven web developer with 7 years of experience in the dynamic world of web development. My passion for coding and problem-solving has led me to specialize in a range of technologies, including PHP, MySQL, React, Laravel, and CodeIgniter.</p>
+
+<p>With a keen eye for detail and a focus on delivering high-quality solutions, I take pride in crafting efficient and user-friendly websites. My expertise lies in building robust back-end systems, seamless front-end interfaces, and ensuring optimal performance across various platforms.</p>
+
+<p>Over the years, I've had the privilege of working on diverse projects, honing my skills in creating scalable web applications, e-commerce platforms, and content management systems. My commitment to staying up-to-date with the latest industry trends and best practices allows me to provide innovative and cutting-edge solutions.</p>
+
+<p>As a team player, I thrive in collaborative environments, valuing open communication and collective problem-solving. I enjoy working with cross-functional teams to transform ideas into reality and drive successful project outcomes.</p>
+<p>
+When I'm not immersed in coding, you can find me exploring new technologies, attending tech meetups, and sharing my knowledge through writing technical articles. I believe in giving back to the developer community that has continuously supported me on my journey.
+</p><p>
+Let's connect and explore how my skills can contribute to the success of your next web development project. Feel free to reach out, and let's create something amazing together!</p>
+				</div>
 			</div><div class="row">
 				<div class="col-lg-4">
 					<img src={myimg} class="img-fluid" alt="" /></div>
 				<div class="col-lg-8 pt-4 pt-lg-0 content">
 					<h3>Fullstack &amp; Sotfware Developer</h3>
-					<p class="fst-italic"> I have worked on various type of enterprise applications in my 6 years of IT life.</p>
+					<p class="fst-italic"> I have worked on various type of enterprise applications in my 7 years of IT life.</p>
 					<div class="row"><div class="col-lg-6"><ul>
 								<li><i class="bi bi-rounded-right"></i> <strong>Birthday:</strong> 2 Feb
 									1992</li><li><i class="bi bi-rounded-right"></i> <strong>Website:</strong>
