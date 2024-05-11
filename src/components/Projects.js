@@ -17,7 +17,7 @@ const Projects = () => {
             <div className='col-md-12'>
             <div class="responsive">
                 <div class="gallery">
-                    <a target="_blank" rel="noreferrer" rel="noreferrer">
+                    <a target="_blank" rel="noreferrer"  href="https://www.zyratalk.com">
                     <img src={zyra} alt="Zyratalk" />
                     </a>
                     <div class="desc">Zyratalk</div>
@@ -25,7 +25,7 @@ const Projects = () => {
                 </div>
                 <div class="responsive">
                 <div class="gallery">
-                    <a target="_blank"  rel="noreferrer">
+                    <a target="_blank"  rel="noreferrer" href="https://refcheckxperts.com/">
                     <img src={refcheck} alt="Refcheck Expert" />
                     </a>
                     <div class="desc">Refcheck Expert</div>
@@ -33,7 +33,7 @@ const Projects = () => {
                 </div>
                 <div class="responsive">
                 <div class="gallery">
-                    <a target="_blank" rel="noreferrer">
+                    <a target="_blank" rel="noreferrer" href="https://hospitalcash.zoominsurancebrokers.com/">
                     <img src={zoom} alt="zoom" />
                     </a>
                     <div class="desc">Zoom</div>
@@ -41,7 +41,7 @@ const Projects = () => {
                 </div>
                 <div class="responsive">
                 <div class="gallery">
-                    <a target="_blank" rel="noreferrer">
+                    <a target="_blank" rel="noreferrer" href="https://www.mediaferry.com/">
                     <img src={mediaferry} alt="Mediaferry Studio" />
                     </a>
                     <div class="desc">Mediaferry Studio</div>
@@ -50,7 +50,7 @@ const Projects = () => {
 
                 <div class="responsive">
                 <div class="gallery">
-                    <a target="_blank"  rel="noreferrer">
+                    <a target="_blank"  rel="noreferrer" href="https://grabidchauffeur.com/">
                     <img src={grabidc} alt="Grabid chauffeur" />
                     </a>
                     <div class="desc">Grabid Chauffeur</div>
@@ -59,7 +59,7 @@ const Projects = () => {
 
                 <div class="responsive">
                 <div class="gallery">
-                    <a target="_blank" rel="noreferrer">
+                    <a target="_blank" rel="noreferrer" href="https://grabidlogistics.com/">
                     <img src={grabidl} alt="Grabid Logistics" />
                     </a>
                     <div class="desc">Grabid Logistics</div>
@@ -67,7 +67,7 @@ const Projects = () => {
                 </div>
                 <div class="responsive">
                 <div class="gallery">
-                    <a target="_blank" rel="noreferrer">
+                    <a target="_blank" rel="noreferrer" href="https://compass-tool.net/">
                     <img src={collective} alt="collective Leadership Instiute" />
                     </a>
                     <div class="desc">collective Leadership Instiute</div>
@@ -75,7 +75,7 @@ const Projects = () => {
                 </div>
                 <div class="responsive">
                 <div class="gallery">
-                    <a target="_blank" rel="noreferrer">
+                    <a target="_blank" rel="noreferrer" href="https://mirrahealthcare.com/">
                     <img src={mirra} alt="Mirra Healthcare" />
                     </a>
                     <div class="desc">Mirra Healthcare</div>

@@ -53,10 +53,6 @@ function App() {
         <div class="copyright"> © Copyright <strong><span>Manoj Kumar</span>
         </strong>. All Rights Reserved</div>
       </div></footer>
-
-
-       
-       
     </div>
   );
 }
