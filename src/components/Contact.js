@@ -1,7 +1,10 @@
 import React from 'react';
 import myimg from '../img/me.jpg';
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> lastchange
 const Contact = () => {
     return (
         <section id="contact" class="projects" style={{color:'black',minHeight:'500px'}}>
