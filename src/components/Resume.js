@@ -32,7 +32,7 @@ Let's connect and explore how my skills can contribute to the success of your ne
           </p>
           <p></p>
           <ul>
-            <li><a>Sector 22, Noida</a></li>
+            <li><address>Sector 22, Noida</address></li>
             <li><a target='_blank' rel="noreferrer" href="tel:+91 8679988472">+91 8679988472</a></li>
             <li><a target='_blank' rel="noreferrer" href="mailto:mkmkgupta42@gmail.com">mkmkgupta42@gmail.com</a></li>
           </ul>
