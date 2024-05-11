@@ -9,7 +9,7 @@ const Contact = () => {
             <div className='column left'>
            <h3>Er. Manoj Kumar Gupta</h3>
            <div>
-            <img src={myimg} className='img-circle' />
+            <img src={myimg} className='img-circle'  alt="Manoj kumar"/>
            </div>
         </div>
                 <div className='column right'>

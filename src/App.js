@@ -31,8 +31,8 @@ function App() {
                 <i class="bi bi-list mobile-nav-toggle"></i>
                 </nav>
                 <div class="header-social-links"> 
-                  <a href="https://github.com/manojgtech" class="instagram" target='_blank'><i class="fa-brands fa-github"></i></a> 
-                  <a href="https://www.linkedin.com/in/manoj-kumar-appcoder/" class="linkedin" target='_blank'><i class="fa-brands fa-linkedin"></i></a>
+                  <a href="https://github.com/manojgtech" class="instagram" rel="noreferrer" target='_blank'><i class="fa-brands fa-github"></i></a> 
+                  <a href="https://www.linkedin.com/in/manoj-kumar-appcoder/" rel="noreferrer" class="linkedin" target='_blank'><i class="fa-brands fa-linkedin"></i></a>
                   </div>
                   </div>
                   </header>
