@@ -1,6 +1,7 @@
 import React from 'react';
 import myimg from '../img/me.jpg';
 
+
 const Contact = () => {
     return (
         <section id="contact" class="projects" style={{color:'black',minHeight:'500px'}}>

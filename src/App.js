@@ -5,6 +5,7 @@ import About from './components/About';
 import Resume from './components/Resume';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+// route
 import {
   BrowserRouter,
   Routes,
