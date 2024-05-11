@@ -4,11 +4,13 @@ import Home from './components/Home';
 import About from './components/About';
 import Resume from './components/Resume';
 import Projects from './components/Projects';
+import Contact from './components/Contact';
 import {
   BrowserRouter,
   Routes,
   Route,
-  Link
+  Link,
+  NavLink
 } from "react-router-dom";
 
 function App() {
@@ -21,13 +23,11 @@ function App() {
             <a href="/">Er. Manoj Kumar Gupta</a></h1>
             <nav id="navbar" class="navbar order-last order-lg-0">
               <ul>
-                <li><Link class="active" to="/">Hello</Link></li>
-                <li><Link  to="/about">About</Link></li>
-                 <li><a href="/resume">Resume</a></li>
-                 <li><a href="/projects">Projects</a></li>
-                {/*<li><a href="services.html">Services</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li> */}
+                <li><NavLink class="active" to="">Hello</NavLink></li>
+                <li><NavLink  to="/about">About</NavLink></li>
+                 <li><NavLink to="/resume">Resume</NavLink></li>
+                 <li><NavLink to="/projects">Projects</NavLink></li>
+                 <li><NavLink to="/contact">Contact</NavLink></li>
                 </ul> 
                 <i class="bi bi-list mobile-nav-toggle"></i>
                 </nav>
@@ -46,6 +46,7 @@ function App() {
       <Route path="/about" element={<About />} />
       <Route path="/resume" element={<Resume />} />
       <Route path="/projects" element={<Projects />} />
+      <Route path="/contact" element={<Contact />} />
     </Routes>
      </main>
     
